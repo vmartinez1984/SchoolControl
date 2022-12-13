@@ -1,0 +1,12 @@
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/bin/Debug/net6.0/SchoolControl.Core.deps.json
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/bin/Debug/net6.0/SchoolControl.Core.dll
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/bin/Debug/net6.0/SchoolControl.Core.pdb
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/SchoolControl.Core.csproj.AssemblyReference.cache
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/SchoolControl.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/SchoolControl.Core.AssemblyInfoInputs.cache
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/SchoolControl.Core.AssemblyInfo.cs
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/SchoolControl.Core.csproj.CoreCompileInputs.cache
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/SchoolControl.Core.dll
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/refint/SchoolControl.Core.dll
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/SchoolControl.Core.pdb
+/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Core/obj/Debug/net6.0/ref/SchoolControl.Core.dll
