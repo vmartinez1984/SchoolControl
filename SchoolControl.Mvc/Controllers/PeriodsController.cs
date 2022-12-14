@@ -6,9 +6,9 @@ namespace SchoolControl.Mvc.Controllers;
 
 public class PeriodsController: Controller
 {
-    private readonly IBusinessLayer _businessLayer;
+    private readonly ISchoolControlBl _businessLayer;
 
-    public PeriodsController(IBusinessLayer businessLayer)
+    public PeriodsController(ISchoolControlBl businessLayer)
     {
         _businessLayer = businessLayer;
     }
@@ -19,7 +19,7 @@ public class PeriodsController: Controller
 
         list = await _businessLayer.Period.GetAsync();
 
-        return View();
+        return View(list);
     }
 
     public async Task<IActionResult> Create()
@@ -31,7 +31,9 @@ public class PeriodsController: Controller
     [HttpPost]
     public async Task<IActionResult> Create(PeriodDto periodDto)
     {
-        await _businessLayer.Period.AddAsync(periodDto);
+        int id;
+
+        id = await _businessLayer.Period.AddAsync(periodDto);
 
         return RedirectToAction(nameof(Index));
     }

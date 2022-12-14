@@ -16,7 +16,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Control Escolar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
@@ -26,7 +26,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Alumnos</a>
+                               aria-expanded="false">Alumnos</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Nuevo</a></li>
                                 <li><a class="dropdown-item" href="#">Lista de alumnos</a></li>
@@ -40,39 +40,44 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Profesores</a>
+                               aria-expanded="false">Profesores</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Nuevo</a></li>
-                                <li><a class="dropdown-item" href="#">Lista de profesores</a></li>                                
+                                <li><a class="dropdown-item" href="#">Lista de profesores</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Groups"
-                                asp-action="Index">Grupos</a>
+                               asp-action="Index">Grupos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Periods"
+                               asp-action="Index">Periodos escolares</a>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Materias</a>
+                               aria-expanded="false">Materias</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Nuevo</a></li>
-                                <li><a class="dropdown-item" href="#">Lista</a></li>                                
+                                <li><a class="dropdown-item" href="#">Lista</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Calificaciones</a>
+                               aria-expanded="false">Calificaciones</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Por alumno</a></li>
-                                <li><a class="dropdown-item" href="#">Por materia</a></li>                                
+                                <li><a class="dropdown-item" href="#">Por materia</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                asp-action="Privacy">Privacy</a>
+                               asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
                 </div>

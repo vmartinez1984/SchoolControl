@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "b/obcGo7JqBHCY9YVJ7eh7SuQgypMlqMCETZuUFjcXjMQi8dX4T28lqoLMOmG+tj3djD7+NWBfnThxuh/eB4lg==",
+  "dgSpecHash": "iNDUFXwNZLeJ4KgG2uIBAdAYiL+bfbgubn2TT/OUKYr24WKuQkFU4ffRuFUEy6HDitcBSSgGXurZo/Ed7OfHgw==",
   "success": true,
-  "projectFilePath": "/home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.BusinessLayer/SchoolControl.BusinessLayer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\SchoolControl\\SchoolControl.BusinessLayer\\SchoolControl.BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vmartinez\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\vmartinez\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\vmartinez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

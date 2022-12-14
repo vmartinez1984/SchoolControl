@@ -27,3 +27,13 @@
 /home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Api/obj/Debug/net6.0/SchoolControl.Api.pdb
 /home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Api/obj/Debug/net6.0/SchoolControl.Api.genruntimeconfig.cache
 /home/vmartinez/Source/CSharp/SchoolControl/SchoolControl.Api/obj/Debug/net6.0/ref/SchoolControl.Api.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.csproj.AssemblyReference.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.AssemblyInfoInputs.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.AssemblyInfo.cs
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.csproj.CoreCompileInputs.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\refint\SchoolControl.Api.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Api\obj\Debug\net6.0\SchoolControl.Api.pdb

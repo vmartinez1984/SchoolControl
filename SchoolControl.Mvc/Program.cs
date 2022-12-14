@@ -1,8 +1,21 @@
+using AutoMapper;
+using SchoolControl.BusinessLayer.Extensions;
+using SchoolControl.Core.Mappers;
+using SchoolControl.Repository.Db.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddRepositoryDb();
+builder.Services.AddSchoolBusinessLayer();
 
+builder.Services.AddControllersWithViews();
+var mapperConfig = new MapperConfiguration(mapperConfig =>
+{
+    mapperConfig.AddProfile<SchoolControlMapper>();
+});
+IMapper mapper = mapperConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

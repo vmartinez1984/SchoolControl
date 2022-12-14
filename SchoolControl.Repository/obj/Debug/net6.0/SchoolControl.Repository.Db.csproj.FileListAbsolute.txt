@@ -1,0 +1,15 @@
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\SchoolControl.Repository.Db.csproj.AssemblyReference.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\SchoolControl.Repository.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\SchoolControl.Repository.Db.AssemblyInfoInputs.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\SchoolControl.Repository.Db.AssemblyInfo.cs
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\SchoolControl.Repository.Db.csproj.CoreCompileInputs.cache
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\bin\Debug\net6.0\SchoolControl.Repository.Db.deps.json
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\bin\Debug\net6.0\SchoolControl.Repository.Db.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\bin\Debug\net6.0\SchoolControl.Repository.Db.pdb
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\bin\Debug\net6.0\SchoolControl.Core.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\bin\Debug\net6.0\SchoolControl.Core.pdb
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\SchoolControl.Repository.Db.csproj.CopyComplete
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\SchoolControl.Repository.Db.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\refint\SchoolControl.Repository.Db.dll
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\SchoolControl.Repository.Db.pdb
+C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Repository\obj\Debug\net6.0\ref\SchoolControl.Repository.Db.dll

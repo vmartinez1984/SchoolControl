@@ -2,15 +2,16 @@ using SchoolControl.Core.Dtos;
 
 namespace SchoolControl.Core.Interfaces;
 
-public interface IBusinessLayer
+public interface ISchoolControlBl
 {
-    public IStudentBl Student { get; set; }
+   // public IStudentBl Student { get; set; }
 
     public IPeriodBl Period { get; set; }
 }
 
 public interface IPeriodBl
 {
+    Task<int> AddAsync(PeriodDto periodDto);
     Task<List<PeriodDto>> GetAsync();
 }
 

@@ -11,6 +11,6 @@ namespace SchoolControl.Core.Dtos
 
         public DateTime DateStart { get; set; }
 
-        public DateTime DateStop { get; set; }
+        public DateTime DateEnd { get; set; }
     }
 }
