@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "kFRNg9zRDwlwsL5QkqnYjU0/FqHvfobeFmJ2gGxFMJxeHWN7BlMxYOvYtgakd9kghUzew/Wp9DuQ4eNInWuJyQ==",
+  "dgSpecHash": "eFq+BY+R5hxxWuLYK6knwxgULpOxHrAyMaVFIJjMyrVeKj2uiR/AE3nHSevwAvi5HxF7URc63n7fVmgyxYidNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vmartinez\\Source\\Repos\\vmartinez1984\\SchoolControl\\SchoolControl.Core\\SchoolControl.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vmartinez\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\vmartinez\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\vmartinez\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\vmartinez\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\vmartinez\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\vmartinez\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

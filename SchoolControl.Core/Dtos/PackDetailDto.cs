@@ -7,7 +7,7 @@ namespace SchoolControl.Core.Dtos
 
     public class PackDetailDtoIn
     {
-        public ClassDto Class { get; set; }
+        public CourseDto Class { get; set; }
 
         public decimal Price { get; set; }
     }

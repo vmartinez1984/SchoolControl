@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\vmartinez\Source\Repos\vmartinez1984\SchoolControl\SchoolControl.Mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/vmartinez/Source/Repos/vmartinez1984/SchoolControl/SchoolControl.Mvc/Views/Courses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vmartinez/Source/Repos/vmartinez1984/SchoolControl/SchoolControl.Mvc/Views/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vmartinez/Source/Repos/vmartinez1984/SchoolControl/SchoolControl.Mvc/Views/Curriculums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWx1bXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vmartinez/Source/Repos/vmartinez1984/SchoolControl/SchoolControl.Mvc/Views/Curriculums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWx1bXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vmartinez/Source/Repos/vmartinez1984/SchoolControl/SchoolControl.Mvc/Views/Groups/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/vmartinez/Source/Repos/vmartinez1984/SchoolControl/SchoolControl.Mvc/Views/Periods/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vmartinez/Source/Repos/vmartinez1984/SchoolControl/SchoolControl.Mvc/Views/Professors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vmartinez/Source/Repos/vmartinez1984/SchoolControl/SchoolControl.Mvc/Views/Shared/Error.cshtml]

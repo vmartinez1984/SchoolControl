@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SchoolControl.Core.Dtos;
+using SchoolControl.Core.Entities;
 using SchoolControl.Core.Interfaces;
 using SchoolControl.Repository.Db.Contexts;
 
@@ -39,6 +39,16 @@ namespace SchoolControl.Repository.Db
         }
 
         public Task<PeriodEntity> UpdateAsync(PeriodEntity entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IBase<PeriodEntity>.DeleteAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task IBase<PeriodEntity>.UpdateAsync(PeriodEntity entity)
         {
             throw new NotImplementedException();
         }

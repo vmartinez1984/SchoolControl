@@ -42,9 +42,13 @@
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                                aria-expanded="false">Profesores</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Nuevo</a></li>
-                                <li><a class="dropdown-item" href="#">Lista de profesores</a></li>
+                                <li><a class="dropdown-item" asp-controller="Professors" asp-action="Create">Nuevo</a></li>
+                                <li><a class="dropdown-item" asp-controller="Professors" asp-action="Index">Lista de profesores</a></li>
                             </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Curriculums" asp-action="Index">Plan de estudios</a>
                         </li>
 
                         <li class="nav-item">
@@ -61,7 +65,9 @@
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                                aria-expanded="false">Materias</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Nuevo</a></li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Courses" asp-action="Create">Nuevo</a>
+                                </li>
                                 <li><a class="dropdown-item" href="#">Lista</a></li>
                             </ul>
                         </li>

@@ -1,11 +1,7 @@
 ﻿using AutoMapper;
 using SchoolControl.Core.Dtos;
+using SchoolControl.Core.Entities;
 using SchoolControl.Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SchoolControl.BusinessLayer
 {
@@ -25,7 +21,7 @@ namespace SchoolControl.BusinessLayer
             List<PeriodDto> list;
             List<PeriodEntity> entities;
 
-            entities = await _repositoryDb.Period.GetAsync();
+            entities = await _schoolControlRepositoryDb.Period.GetAsync();
             list = _mapper.Map<List<PeriodDto>>(entities);
 
             return list;

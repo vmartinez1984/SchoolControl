@@ -7,7 +7,7 @@ namespace SchoolControl.Core.Dtos
 
     public class ClassProfessorDtoIn
     {
-        public ClassDto Class { get; set; }
+        public CourseDto Class { get; set; }
 
         public ProfessorDto ProfessorDto { get; set; }
 

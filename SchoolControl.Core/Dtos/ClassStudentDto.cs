@@ -15,7 +15,7 @@ namespace SchoolControl.Core.Dtos
 
         public ProfessorDto Professor { get; set; }
 
-        public ClassDto Class { get; set; }
+        public CourseDto Class { get; set; }
 
         public string Schedule { get; set; }
     }

@@ -4,9 +4,34 @@ namespace SchoolControl.Core.Interfaces;
 
 public interface ISchoolControlBl
 {
-   // public IStudentBl Student { get; set; }
+    ICourseBl Course { get; set; }
+    // public IStudentBl Student { get; set; }
 
     public IPeriodBl Period { get; set; }
+
+    IProfessorBl Professor { get; set; }
+    ICurriculumBl Curriculum { get; set; }
+}
+
+public interface IBaseBl<U, T>
+{
+    Task<int> AddAsync(U dtoIn);
+
+    Task<T> GetAsync(int id);
+
+    Task DeleteAsync(int id);
+
+    Task UpdateAsync(int id, U dtoIn);
+}
+
+public interface ICurriculumBl : IBaseBl<CurriculumDtoIn, CurriculumDto>
+{
+    Task<List<CurriculumDto>> GetAsync();
+}
+
+public interface ICourseBl : IBaseBl<CourseDtoIn, CourseDto>
+{
+    Task<PagerDto> GetAsync(PagerDto pagerDto);    
 }
 
 public interface IPeriodBl
@@ -28,7 +53,7 @@ public interface IStudentBl
     Task<string> AddAsync(StudentDtoIn studentDtoIn);
 }
 
-public interface IProfessor
+public interface IProfessorBl : IBaseBl<ProfessorDtoIn, ProfessorDto>
 {
-
+    Task<PagerDto> GetAsync(PagerDto pagerDto);
 }

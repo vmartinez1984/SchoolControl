@@ -9,7 +9,10 @@ namespace SchoolControl.Repository.Db.Extensions
         public static void AddRepositoryDb(this IServiceCollection service)
         {
             service.AddScoped<AppDbContext>();
+            service.AddScoped<ICourseRepository, CourseRepositoryDb>();
+            service.AddScoped<ICurriculumRepository, CurriculumRepositoryDb>();
             service.AddScoped<IPeriodRepository, PeriodRepositoryDb>();
+            service.AddScoped<IProfessorRepository, ProfessorRepository>();
             service.AddScoped<ISchoolControlRepositoryDb, SchoolControlRepositoryDb>();
         }
     }

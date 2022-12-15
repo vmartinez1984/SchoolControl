@@ -3,15 +3,26 @@
 namespace SchoolControl.BusinessLayer;
 public class SchoolControlBl : ISchoolControlBl
 {
-    public SchoolControlBl(        
+    public SchoolControlBl( 
+        ICurriculumBl curriculum,
+        ICourseBl courseBl,
+        IPeriodBl period,
        // IStudentBl student
-        IPeriodBl period
+       IProfessorBl professorBl
     )
     {
-       // Student = student;
+        Curriculum= curriculum;
+        Course = courseBl;
         Period = period;
+        Professor = professorBl;
+       // Student = student;
     }
 
-   // public IStudentBl Student { get; set; }
+    public IProfessorBl Professor { get; set; }
+    public ICurriculumBl Curriculum { get; set; }
+
+    public ICourseBl Course { get; set; }
+
     public IPeriodBl Period { get; set; }
+    // public IStudentBl Student { get; set; }
 }

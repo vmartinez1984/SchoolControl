@@ -5,15 +5,15 @@ namespace SchoolControl.BusinessLayer
 {
     public class BaseBl
     {
-        public readonly ISchoolControlRepositoryDb _repositoryDb;
+        public readonly ISchoolControlRepositoryDb _schoolControlRepositoryDb;
         public readonly IMapper _mapper;
 
         public BaseBl(
-            ISchoolControlRepositoryDb repositoryDb,
+            ISchoolControlRepositoryDb schoolControlRepositoryDb,
             IMapper mapper
         )
         {
-            _repositoryDb = repositoryDb;
+            _schoolControlRepositoryDb = schoolControlRepositoryDb;
             _mapper = mapper;
         }
     }
