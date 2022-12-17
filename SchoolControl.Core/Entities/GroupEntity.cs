@@ -10,8 +10,11 @@ namespace SchoolControl.Core.Entities
         [StringLength(50)]
         public string Name { get; set; }
 
-        public DateTime DateRegistration { get; set; }
+        [Range(1, 15)]
+        public int Level { get; set; }
 
-        public bool IsActive { get; set; }
+        public DateTime DateRegistration { get; set; } = DateTime.Now;
+
+        public bool IsActive { get; set; } = true;
     }
 }

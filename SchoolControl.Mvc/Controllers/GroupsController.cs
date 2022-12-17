@@ -1,32 +1,45 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using SchoolControl.Core.Dtos;
+using SchoolControl.Core.Interfaces;
 using SchoolControl.Mvc.Models;
 
 namespace SchoolControl.Mvc.Controllers;
 
-public class GroupsController : Controller
+public class GroupsController : Base
 {
-    private readonly ILogger<GroupsController> _logger;
-
-    public GroupsController(ILogger<GroupsController> logger)
+    public GroupsController(ISchoolControlBl schoolControlBl) : base(schoolControlBl)
     {
-        _logger = logger;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        
+        PagerDto pagerDto;
+
+        pagerDto = await _schoolControlBl.Group.GetAsync(new PagerDto { });
+
+        return View(pagerDto.List);
+    }
+
+    public IActionResult Create()
+    {
         return View();
     }
 
-    public IActionResult Privacy()
+    [HttpPost]
+    public async Task<IActionResult> Create(GroupDtoIn item)
     {
-        return View();
-    }
+        try
+        {
+        await _schoolControlBl.Group.AddAsync(item);
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return RedirectToAction(nameof(Index));
+        }
+        catch (Exception)
+        {
+            return View(item);            
+        }
+
     }
 }

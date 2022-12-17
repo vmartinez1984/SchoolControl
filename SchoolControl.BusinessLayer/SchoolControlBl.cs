@@ -7,22 +7,32 @@ public class SchoolControlBl : ISchoolControlBl
         ICurriculumBl curriculum,
         ICourseBl courseBl,
         IPeriodBl period,
-       // IStudentBl student
-       IProfessorBl professorBl
+        IGroupBl groupBl,
+        IGroupCourseBl groupCourseBl,
+        IProfessorBl professorBl,
+        IStudentBl student
     )
     {
         Curriculum= curriculum;
         Course = courseBl;
+        Group = groupBl;
+        GroupCourse = groupCourseBl;
         Period = period;
         Professor = professorBl;
-       // Student = student;
+        Student = student;
     }
 
-    public IProfessorBl Professor { get; set; }
-    public ICurriculumBl Curriculum { get; set; }
+    public IProfessorBl Professor { get; }
 
-    public ICourseBl Course { get; set; }
+    public ICurriculumBl Curriculum { get; }
 
-    public IPeriodBl Period { get; set; }
-    // public IStudentBl Student { get; set; }
+    public ICourseBl Course { get; }
+
+    public IPeriodBl Period { get; }
+
+    public IGroupBl Group { get; }
+
+    public IGroupCourseBl GroupCourse { get; }
+    
+    public IStudentBl Student { get; set; }
 }

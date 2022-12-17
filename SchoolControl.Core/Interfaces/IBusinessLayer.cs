@@ -4,13 +4,19 @@ namespace SchoolControl.Core.Interfaces;
 
 public interface ISchoolControlBl
 {
-    ICourseBl Course { get; set; }
-    // public IStudentBl Student { get; set; }
+    ICourseBl Course { get; }
 
-    public IPeriodBl Period { get; set; }
+    IPeriodBl Period { get; }
 
-    IProfessorBl Professor { get; set; }
-    ICurriculumBl Curriculum { get; set; }
+    IProfessorBl Professor { get; }
+    
+    ICurriculumBl Curriculum { get;  }
+    
+    IGroupBl Group { get;  }
+    
+    IGroupCourseBl GroupCourse { get; }
+    
+    IStudentBl Student { get; set; }
 }
 
 public interface IBaseBl<U, T>
@@ -22,6 +28,16 @@ public interface IBaseBl<U, T>
     Task DeleteAsync(int id);
 
     Task UpdateAsync(int id, U dtoIn);
+}
+
+public interface IGroupBl: IBaseBl<GroupDtoIn, GroupDto>
+{
+    Task<PagerDto> GetAsync(PagerDto pagerDto);
+}
+
+public interface IGroupCourseBl : IBaseBl<GroupCourseDtoIn, GroupCourseDto>
+{
+    Task<PagerDto> GetAsync(PagerDto pagerDto);
 }
 
 public interface ICurriculumBl : IBaseBl<CurriculumDtoIn, CurriculumDto>
@@ -40,17 +56,9 @@ public interface IPeriodBl
     Task<List<PeriodDto>> GetAsync();
 }
 
-public interface IStudentBl
+public interface IStudentBl : IBaseBl<StudentDtoIn, StudentDto>
 {
-    Task<StudentDto> GetAsync(string studentId);
-
-    Task<List<StudentDto>> GetByGroupAsync(string groupId);
-
-    Task<List<StudentDto>> GetByCourseAsync(string courseId);
-
-    Task UpdateAsync(string studentId, StudentDtoIn studentDtoIn);
-
-    Task<string> AddAsync(StudentDtoIn studentDtoIn);
+    PagerDto GetAsync(PagerDto pagerDto);
 }
 
 public interface IProfessorBl : IBaseBl<ProfessorDtoIn, ProfessorDto>

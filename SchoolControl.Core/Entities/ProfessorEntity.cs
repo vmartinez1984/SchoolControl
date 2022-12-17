@@ -11,8 +11,11 @@ namespace SchoolControl.Core.Entities
         public string Name { get; set; }
 
         [StringLength(150)]
-        public string LastName { get; set; }
-                
+        public string LastName1 { get; set; }
+
+        [StringLength(150)]
+        public string LastName2 { get; set; }
+
         public DateTime Birthday { get; set; }
 
         [StringLength(50)]  
@@ -21,11 +24,11 @@ namespace SchoolControl.Core.Entities
         [StringLength(100)]
         public string Note { get; set; }
 
-        public DateTime DateRegistration { get; set; }
+        public DateTime DateRegistration { get; set; } = DateTime.Now;
 
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
+
+        [StringLength(10)]
         public string MobilePhone { get; set; }
-        public string LastName1 { get; set; }
-        public string LastName2 { get; set; }
     }
 }

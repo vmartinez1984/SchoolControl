@@ -7,7 +7,7 @@ namespace SchoolControl.Repository.Db
         public SchoolControlRepositoryDb(
             ICourseRepository course,
             ICurriculumRepository curriculum,
-            //IGroupRepository group,
+            IGroupRepository group,
             IPeriodRepository period,
             //IProfessorCourseRepository professorCourse,
             IProfessorRepository professor
@@ -18,6 +18,7 @@ namespace SchoolControl.Repository.Db
             Period = period;
             Professor = professor;
             Course = course;
+            Group = group;
         }
 
         public IPeriodRepository Period { get; set; }

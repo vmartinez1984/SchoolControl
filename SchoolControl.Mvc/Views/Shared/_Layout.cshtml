@@ -25,16 +25,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                               aria-expanded="false">Alumnos</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Alumnos</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Nuevo</a></li>
-                                <li><a class="dropdown-item" href="#">Lista de alumnos</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                <li><a class="dropdown-item" asp-controller="Students" asp-action="Index">Nuevo</a></li>
+                                <li><a class="dropdown-item" asp-controller="Students" asp-action="Create">Lista de alumnos</a></li>                                
                             </ul>
                         </li>
 
@@ -68,7 +62,7 @@
                                 <li>
                                     <a class="dropdown-item" asp-controller="Courses" asp-action="Create">Nuevo</a>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Lista</a></li>
+                                <li><a class="dropdown-item" asp-controller="Courses" asp-action="Index">Lista</a></li>
                             </ul>
                         </li>
 

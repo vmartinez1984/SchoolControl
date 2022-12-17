@@ -22,7 +22,7 @@ namespace SchoolControl.Repository.Db
             pager.TotalRecords = queryable.Count();
             if (string.IsNullOrEmpty(pager.Search) == false)
                 queryable = queryable.Where(
-                    x => string.Concat(x.Name, " ", x.LastName, " ", x.Email).Contains(pager.Search)
+                    x => string.Concat(x.Name, " ", x.LastName2, " ", x.Email).Contains(pager.Search)
                 );
             if (string.IsNullOrEmpty(pager.SortColumn) == false && string.IsNullOrEmpty(pager.SortColumnDir) == false)
             {

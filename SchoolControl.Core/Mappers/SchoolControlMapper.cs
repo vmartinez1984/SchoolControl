@@ -12,11 +12,17 @@ namespace SchoolControl.Core.Mappers
 
             CreateMap<CurriculumDtoIn, CurriculumEntity>();
             CreateMap<CurriculumEntity, CurriculumDto>();
-
-            CreateMap<PagerEntity, PagerDto>().ReverseMap();
-            
+                        
             CreateMap<CourseEntity, CourseDto>();
             CreateMap<CourseDtoIn, CourseEntity>();
+
+            CreateMap<GroupDtoIn, GroupEntity>();
+            CreateMap<GroupEntity, GroupDto>();
+
+            CreateMap<PagerEntity, PagerDto>().ReverseMap();
+            CreateMap<ProfessorDtoIn, ProfessorEntity>();
+            CreateMap<ProfessorEntity, ProfessorDto>();
+
         }
     }
 }

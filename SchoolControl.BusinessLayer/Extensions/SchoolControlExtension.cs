@@ -9,9 +9,12 @@ namespace SchoolControl.BusinessLayer.Extensions
         {
             services.AddScoped<ICurriculumBl,CurriculumBl>();
             services.AddScoped<ICourseBl, CourseBl>();
+            services.AddScoped<IGroupBl, GroupBl>();
+            services.AddScoped<IGroupCourseBl, GroupCourseBl>();
             services.AddScoped<IPeriodBl,PeriodBl>();
             services.AddScoped<IProfessorBl,ProfessorBl>();
             services.AddScoped<ISchoolControlBl, SchoolControlBl>();
+            services.AddScoped<IStudentBl, StudentBl>();
         }
     }
 }

@@ -38,7 +38,10 @@ namespace SchoolControl.Core.Interfaces
     {
         Task<List<CurriculumEntity>> GetAsync();
     }
-    public interface IGroupRepository : IBase<GroupEntity> { }
+    public interface IGroupRepository : IBase<GroupEntity>
+    {
+        Task<List<GroupEntity>> GetAsync(PagerEntity pager);
+    }
     public interface IPeriodRepository : IBase<PeriodEntity>
     {
         Task<List<PeriodEntity>> GetAsync();

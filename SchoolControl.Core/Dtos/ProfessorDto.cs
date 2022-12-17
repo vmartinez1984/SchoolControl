@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SchoolControl.Core.Dtos
 {
-    public class ProfessorDto: ProfessorDtoIn
+    public class ProfessorDto : ProfessorDtoIn
     {
         public string Id { get; set; }
 
@@ -12,7 +12,7 @@ namespace SchoolControl.Core.Dtos
 
     public class ProfessorDtoIn
     {
-        [Required(ErrorMessage ="Nombre obligatorio")]
+        [Required(ErrorMessage = "Nombre obligatorio")]
         [Display(Name = "Nombre")]
         [StringLength(50)]
         public string Name { get; set; }
@@ -32,11 +32,19 @@ namespace SchoolControl.Core.Dtos
         [Display(Name = "Notas")]
         public string Note { get; set; }
 
-        [Display(Name= "Fecha de nacimiento")]
+        [Required]
+        [Display(Name = "Fecha de nacimiento")]
+        [DataType(DataType.Date)]
         public DateTime Birthday { get; set; }
 
         public AddressDto Address { get; set; }
+
+        [Required]
+        [Display(Name = "Celular")]
         public string MobilePhone { get; set; }
+
+        [Required]
+        [Display(Name = "Correo-e")]
         public string Email { get; set; }
     }
 }

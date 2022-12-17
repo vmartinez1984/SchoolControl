@@ -11,6 +11,7 @@ namespace SchoolControl.Repository.Db.Extensions
             service.AddScoped<AppDbContext>();
             service.AddScoped<ICourseRepository, CourseRepositoryDb>();
             service.AddScoped<ICurriculumRepository, CurriculumRepositoryDb>();
+            service.AddScoped<IGroupRepository, GroupRepository>();
             service.AddScoped<IPeriodRepository, PeriodRepositoryDb>();
             service.AddScoped<IProfessorRepository, ProfessorRepository>();
             service.AddScoped<ISchoolControlRepositoryDb, SchoolControlRepositoryDb>();
